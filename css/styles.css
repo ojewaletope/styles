@@ -3,8 +3,10 @@
   --color-dark: #333333;
   --color-light: #ffffff;
   --color-primary: #f88f09;
+  --color-primary-light: #FDF4E7;
   --color-light-secondary: #f9fafb;
   --color-secondary: #fbe8d0;
+  
   --color-grey-light: #828282;
   /* fonts */
   --ff-primary: "Manrope", sans-serif;
@@ -520,6 +522,10 @@ ul.gos-breadcrumb li a:hover {
 .p5 {
   padding: 0.5rem;
 }
+
+.p20 {
+  padding: 2rem;
+}
 .mb20 {
   margin-bottom: 2rem;
 }
@@ -588,6 +594,18 @@ ul.gos-breadcrumb li a:hover {
 .g-link {
   text-decoration: none;
   color: var(--color-dark);
+}
+
+.g-col-2 {
+  flex-basis: 50%;
+}
+
+.g-col-3 {
+  flex-basis: 33.3%;
+}
+
+.g-col-4 {
+  flex-basis: 25%;
 }
 
 .flex-end {
@@ -767,8 +785,9 @@ ul .tab-item:active a {
 
 .icon-link {
   text-align: center;
-  flex-basis: 25%;
+  flex-basis: 20%;
 }
+
 
 /* .img-container:after {
   position: relative;
@@ -1244,3 +1263,85 @@ ul .tab-item:active a {
   font-size: 1.3rem;
 }
 /* learning and development end */
+
+/* project management starts */
+
+.overtime {
+  background: rgba(248, 143, 9, 0.1);
+  color: var(--color-primary);
+  /* width: 10rem; */
+}
+
+/* project management ends */
+
+/* dashboard starts  */
+
+.dash-card {
+  background: var(--color-light);
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.4rem;
+  border-radius: .4rem;
+}
+
+.dash-card:hover {
+  background: var(--color-primary-light);
+}
+
+.dash-left {
+  flex-basis: 65%;
+}
+
+.emp-dash-card {
+  background-color: var(--color-light-secondary);
+  border-radius: .4rem;
+}
+.perf-wrapper {
+  height: 30rem;
+}
+.dash-right {
+  flex-basis: 35%;
+}
+.dash-head {
+  font-size: 1.4rem;
+}
+.dash-link {
+  text-decoration: none;
+  color: var(--color-primary);
+  font-size: 1.3rem;
+}
+
+.mid-card {
+  height: 20rem;
+  /* border: 1px solid red; */
+  flex-basis: 33.3%;
+}
+
+.reward-btn {
+  width: 7rem;
+  padding: .5rem;
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  border: 1px solid var(--color-primary);
+  border-radius: .4rem;
+  text-transform: capitalize;
+}
+
+.reward-btn:hover {
+  background: var(--color-light);
+  color: var(--color-primary);
+}
+
+.dash-events {
+  background: var(--color-light);
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
+.event-label {
+  color: var(--color-grey-light);
+}
+
+/* dashboard ends */
